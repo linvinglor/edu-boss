@@ -17,7 +17,8 @@ module.exports = {
   //   : '/',
   devServer: {
     // 仅对开发环境有效
-    port: 9099,
+    host: '0.0.0.0',
+    port: 3300,
     proxy: {
       '/boss': {
         target: 'http://eduboss.lagou.com',

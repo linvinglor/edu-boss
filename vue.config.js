@@ -12,9 +12,9 @@ module.exports = {
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/edu-boss/'
-    : '/',
+  // publicPath: process.env.NODE_ENV === 'production'
+  //   ? '/'
+  //   : '/',
   devServer: {
     // 仅对开发环境有效
     port: 9099,
